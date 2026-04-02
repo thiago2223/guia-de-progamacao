@@ -44,6 +44,7 @@ header > p{
     font-family: var(--fonte-paragrafos);
     color: white;
     padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 1.2em;
 }
 nav{
