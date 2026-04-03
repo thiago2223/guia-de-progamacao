@@ -90,3 +90,105 @@ main p{
     margin: 15px 0px;
     font-size: 0.85em;
 }
+footer{
+    background-color: rgba(37, 117, 230, 0.226);
+}
+footer p{
+    text-align: center;
+}
+.video{
+    background-color: var(--cor1);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0px -20px 40px -20px;
+    padding-bottom: 40%;
+    position: relative;
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 88%;
+    height: 88%;
+}
+#div-de-exemplo-em-elementos-dentro-de-uma-div{
+    background-color: gray;
+    color: white;
+}
+#div-de-exemplo-em-elementos-dentro-de-uma-div > p{
+    display: none;
+}
+#div-de-exemplo-em-elementos-dentro-de-uma-div > p:hover{
+    display: block;
+    background-color: greenyellow;
+}
+#d1{
+    background-color: gray;
+    color: white;
+    width: 200px;
+    margin: 4px auto 4px auto;
+    border-radius: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+#d2{
+    background-color: gray;
+    color: white;
+    width: 200px;
+    margin: 4px auto 4px auto;
+    border-radius: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+#d3{
+    background-color: gray;
+    color: white;
+    width: 200px;
+    margin: 4px auto 4px auto;
+    border-radius: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+#d1 > p{
+    display: none;
+}
+#d2 > p{
+    display: none;
+}
+#d3 > p{
+    display: none;
+}
+#d1:hover p{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.262);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#d2:hover p{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.262);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#d3:hover p{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.262);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+ .assuntos{
+   
+    padding: 10px;    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 13%;
+    background-color: darksalmon;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    margin-bottom: 15px;
+        }
+.meu-nome{
+    font-family: var(--fonte-handwriting);
+    font-size: 3em;
+}
